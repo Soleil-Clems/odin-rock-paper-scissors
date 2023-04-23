@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Pape Cissor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <span id="son" >🔇</span>
+    <div id="prologue">
+        <h1>What are you doing here? it's Dangerous!!!</h1>
+        <p id="story"></p>
+    </div>
+    <div class="container" id="container">
+        <button value="rock"  class="sub_container" id="rock"><img src="img/rock.png" alt="" class='weapon'></button>
+        <button value="paper" class="sub_container" id="paper"><img src="img/paper.png" alt="" class='weapon'></button>
+        <button value="cissor" class="sub_container" id="cissor"><img src="img/scissors.png" alt="" class='weapon'></button>
+    </div>
+    
+    <div class="container">
+        <p id="winner"></p>
+    </div><br>
+    <div class="score container" id="score">
+        <p id="board">User 0 : 0 Robot</p>
+        <span id=""></span>
+    </div>
+    <div id="duel">
+        <img src="img/duel.png" alt="">
+    </div>
+    <audio controls autoplay loop>
+        <source src="darknessmusic.mp3" type="audio/mp3">
+      </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
